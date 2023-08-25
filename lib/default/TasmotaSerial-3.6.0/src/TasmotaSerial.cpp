@@ -268,7 +268,7 @@ bool TasmotaSerial::begin(uint32_t speed, uint32_t config) {
     // #define UART_NB_STOP_BIT_2    0B00110000
     m_stop_bits = 1 + ((config &0x30) >> 5);
     // #define UART_PARITY_NONE      0B00000000
-    // #define UART_PARITY_EVEN      0B00000010
+    #define UART_PARITY_EVEN      0B00000010
     // #define UART_PARITY_ODD       0B00000011
     if ((1 == m_stop_bits) && (config &0x03)) {
       m_stop_bits++;
