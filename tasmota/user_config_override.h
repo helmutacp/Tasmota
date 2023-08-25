@@ -13,7 +13,6 @@
 #undef  STA_SSID1
 #define STA_SSID1         "IOT"				// [Ssid1] Wifi SSID
 #undef  STA_PASS1
-#define STA_PASS1         "SchaltenUndWalten38"		// [Password1] Wifi password
 
 #undef  MY_LANGUAGE
 #define MY_LANGUAGE            de_DE			// German in Germany
