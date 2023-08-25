@@ -72,7 +72,6 @@
 #undef MQTT_USER
 #define MQTT_USER              "mqtt"       		// [MqttUser] MQTT user
 #undef MQTT_PASS 
-#define MQTT_PASS              "deldat886"       	// [MqttPassword] MQTT password
 
 // ***********************************************
 // ** Firmware specific settings *****************
@@ -92,8 +91,7 @@
     #undef MQTT_USER
     #define MQTT_USER              "mqtt"       		// [MqttUser] MQTT user
     #undef MQTT_PASS 
-    #define MQTT_PASS              "control38"       	// [MqttPassword] MQTT password
-
+    
 
     // Put here your override for firmware tasmota-SERIAL
     #ifndef USE_TCP_BRIDGE
