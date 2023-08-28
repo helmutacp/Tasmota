@@ -124,6 +124,14 @@
 	#define USE_MCP9808      // [I2cDriver51] Enable MCP9808 temperature sensor (I2C addresses 0x18 - 0x1F) (+0k9 code)
     #endif
 
+    #ifndef USE_HTU
+	#define USE_HTU     // [I2cDriver51] Enable USE_HTU... temperature sensor (I2C addresses 0x18 - 0x1F) (+0k9 code)
+    #endif
+
+    #ifndef USE_HDC1080
+	#define USE_HDC1080     // [I2cDriver51] Enable USE_HDC1080 temperature sensor (I2C addresses 0x18 - 0x1F) (+0k9 code)
+    #endif
+
     /*Tasmota Settings:
 	In the Configuration -> Configure Module page assign:
 	GPIOx to I2C SDA  D2
