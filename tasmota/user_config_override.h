@@ -64,6 +64,14 @@
 #undef USE_BERRY
 #endif
 
+#ifdef USE_SHUTTER 
+#undef USE_SHUTTER
+#endif
+
+#ifdef USE_MATTER_DEVICE
+#undef USE_MATTER_DEVICE
+#endif
+
 #define USER_BACKLOG "ntpserver1 192.168.254.250; FullTopic %topic%/%prefix%/"
 
 
