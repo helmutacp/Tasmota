@@ -118,8 +118,7 @@
     #undef MQTT_USER
     #define MQTT_USER              "mqtt"       		// [MqttUser] MQTT user
     #undef MQTT_PASS 
-    #define MQTT_PASS              "deldat886"       	// [MqttPassword] MQTT password
-
+    
     #ifndef USE_MCP9808
 	#define USE_MCP9808      // [I2cDriver51] Enable MCP9808 temperature sensor (I2C addresses 0x18 - 0x1F) (+0k9 code)
     #endif
