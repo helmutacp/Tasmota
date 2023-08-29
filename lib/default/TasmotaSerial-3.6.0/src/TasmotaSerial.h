@@ -44,7 +44,7 @@ class TasmotaSerial : public Stream {
     size_t setRxBufferSize(size_t size);
     size_t getRxBufferSize() { return serial_buffer_size; }
 
-    bool begin(uint32_t speed = TM_SERIAL_BAUDRATE, uint32_t config = SERIAL_8E1);
+    bool begin(uint32_t speed = TM_SERIAL_BAUDRATE, uint32_t config = SERIAL_8N1);
     void end(bool turnOffDebug = true);
     bool hardwareSerial(void);
     int peek(void);
