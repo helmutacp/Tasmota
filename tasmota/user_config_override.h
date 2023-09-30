@@ -135,6 +135,11 @@
 	#define USE_HTU     // [I2cDriver51] Enable USE_HTU... temperature sensor (I2C addresses 0x18 - 0x1F) (+0k9 code)
     #endif
 
+    #ifndef USE_DS18x20
+    #define USE_DS18x20
+    #define DS18x20_USE_ID_ALIAS
+    #endif
+
     #ifndef USE_HDC1080
 	#define USE_HDC1080     // [I2cDriver51] Enable USE_HDC1080 temperature sensor (I2C addresses 0x18 - 0x1F) (+0k9 code)
     #endif
